@@ -2,7 +2,8 @@
 
 **Real-Time HRMS Report Validation — Directly Inside Microsoft Word**
 
-MSReportChecker is a standalone Microsoft Word Add-in that automatically detects and evaluates High-Resolution Mass Spectrometry (HRMS) data within Word documents. It validates formatting, extracts molecular formulas, calculates exact masses, and flags potential inconsistencies between reported and theoretical values — all in real time, without the need for copy-pasting or external software.
+MSReportChecker is a standalone Microsoft Word Add-in that automatically detects and evaluates High-Resolution Mass Spectrometry (HRMS) data within Word documents.
+It validates formatting, extracts molecular formulas, calculates exact masses, and flags potential inconsistencies between reported and theoretical values — all in real time, without the need for copy-pasting or external software.
 
 This tool is intended to support synthetic chemists, academic authors, and peer reviewers by ensuring HRMS data quality and adherence to reporting standards, particularly in manuscripts prepared for chemistry journals.
 
@@ -88,6 +89,7 @@ tba.
 ## Author
 
 **Ulrich Pabst, 2025**
+
 ORCID: (0009-0007-0529-0720)[https://orcid.org/0009-0007-0529-0720]
 
 
