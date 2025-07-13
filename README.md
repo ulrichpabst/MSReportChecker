@@ -8,7 +8,6 @@ It validates formatting, extracts molecular formulas, calculates exact masses, a
 
 This tool is intended to support chemists, academic authors, and peer reviewers by ensuring HRMS data quality and adherence to reporting standards, particularly in manuscripts prepared for chemistry journals.
 
----
 
 ## Installation
 
@@ -16,7 +15,6 @@ MSReportChecker is compatible with **macOS** and **Windows**. It runs entirely l
 
 No programming experience is required.
 
----
 
 ### macOS
 
