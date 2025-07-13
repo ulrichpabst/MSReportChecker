@@ -18,7 +18,7 @@ No programming experience is required.
 
 ### macOS
 
-Open the **Terminal**, then:
+Open the **Terminal**, then run:
 
 ```bash
 # 1. Clone this repository
@@ -37,11 +37,11 @@ python server.py
 
 ### Windows
 
-Open **PowerShell** as Administrator, then:
+Open **PowerShell** as Administrator, then run:
 
 ```powershell
 # 1. Clone the repository
-git clone https://github.com/yourname/MSReportChecker.git
+git clone https://github.com/ulrichpabst/MSReportChecker.git
 
 # 2. Navigate into the folder
 cd MSReportChecker
