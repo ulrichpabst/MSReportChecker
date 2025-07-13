@@ -55,23 +55,23 @@ python server.py
 ```
 
 Then in Microsoft Word:
-	1.	Go to `File > Options > Trust Center > Trust Center Settings`
-	2.	Choose `Trusted Add-in Catalogs`
-	3.	Add the full path to this project directory as a shared folder catalog
-	4.	Confirm and restart Word
-	5.	The MSReportChecker will now appear under `Home > Add-ins`
+1.	Go to `File > Options > Trust Center > Trust Center Settings`
+2.	Choose `Trusted Add-in Catalogs`
+3.	Add the full path to this project directory as a shared folder catalog
+4.	Confirm and restart Word
+5.	The MSReportChecker will now appear under `Home > Add-ins`
 
 
 ## Usage
 
-  1.  Ensure the local server is running:
+1.  Ensure the local server is running:
 ```bash
 python ./server.py
 ```
-	2.	Open Microsoft Word
-	3.	Select MS Report Checker from the Home ribbon tab
-	4.	Click Analyze Document in the taskpane to scan for HRMS reports
-	5.	Results are presented in a table with tooltips and colored status icons
+2.	Open Microsoft Word
+3.	Select MS Report Checker from the Home ribbon tab
+4.	Click Analyze Document in the taskpane to scan for HRMS reports
+5.	Results are presented in a table with tooltips and colored status icons
 
 ## Security and Privacy
 
