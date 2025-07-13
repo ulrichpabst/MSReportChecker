@@ -23,7 +23,7 @@ Open the **Terminal**, then:
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/yourname/MSReportChecker.git
+git clone https://github.com/ulrichpabst/MSReportChecker.git
 
 # 2. Navigate into the folder
 cd MSReportChecker
@@ -78,7 +78,7 @@ python ./server.py
 
 MSReportChecker is fully local and offline. It does not connect to the internet or transmit any data.
 -	It runs a local server at `https://localhost:3000` to display the add-in interface.
--	A self-signed TLS certificate is created using (mkcert)[https://github.com/FiloSottile/mkcert], a trusted open-source tool that installs a local certificate authority to enable secure HTTPS communication within your own computer only.
+-	A self-signed TLS certificate is created using [mkcert](https://github.com/FiloSottile/mkcert), a trusted open-source tool that installs a local certificate authority to enable secure HTTPS communication within your own computer only.
 -	No telemetry, analytics, or user data is collected or stored.
 -	You remain in full control of all documents and information.
 
@@ -88,9 +88,7 @@ tba.
 
 ## Author
 
-**Ulrich Pabst, 2025**
-
-ORCID: (0009-0007-0529-0720)[https://orcid.org/0009-0007-0529-0720]
+**Ulrich Pabst**, [ORCID](https://orcid.org/0009-0007-0529-0720), 2025
 
 
 
