@@ -77,10 +77,10 @@ python ./server.py
 ## Security and Privacy
 
 MSReportChecker is fully local and offline. It does not connect to the internet or transmit any data.
-	•	It runs a local server at `https://localhost:3000` to display the add-in interface.
-	•	A self-signed TLS certificate is created using (mkcert)[https://github.com/FiloSottile/mkcert], a trusted open-source tool that installs a local certificate authority to enable secure HTTPS communication within your own computer only.
-	•	No telemetry, analytics, or user data is collected or stored.
-	•	You remain in full control of all documents and information.
+-	It runs a local server at `https://localhost:3000` to display the add-in interface.
+-	A self-signed TLS certificate is created using (mkcert)[https://github.com/FiloSottile/mkcert], a trusted open-source tool that installs a local certificate authority to enable secure HTTPS communication within your own computer only.
+-	No telemetry, analytics, or user data is collected or stored.
+-	You remain in full control of all documents and information.
 
 ## License
 
