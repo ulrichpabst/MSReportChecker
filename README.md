@@ -37,7 +37,7 @@ python server.py
 
 Open **PowerShell** as Administrator, then run:
 
-```powershell
+```bash
 # 1. Clone the repository
 git clone https://github.com/ulrichpabst/MSReportChecker.git
 
@@ -48,7 +48,7 @@ cd MSReportChecker
 .\install_win.ps1
 ```
 After installation, you may start the tool by running:
-```powershell
+```bash
 python server.py
 ```
 
@@ -62,9 +62,9 @@ Then in Microsoft Word:
 
 ## Usage
 
-1.  Ensure the local server is running:
+1.  Ensure the local server is running (run this from within the add-in directory):
 ```bash
-python ./server.py
+python server.py
 ```
 2.	Open Microsoft Word
 3.	Select MS Report Checker from the Home ribbon tab
