@@ -115,7 +115,7 @@ Then in Microsoft Word:
 
 1. Start the local server:
    ```bash
-   ./server.py
+   python server.py
 
 2.	Open Microsoft Word.
 3.	Click the MS Report Checker button in the ribbon.
