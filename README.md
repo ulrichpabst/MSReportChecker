@@ -2,9 +2,12 @@
 
 **Real-Time HRMS Report Validation Directly Inside Microsoft Word**
 
-MSReportChecker is a standalone Microsoft Word Add-in that automatically detects and evaluates High-Resolution Mass Spectrometry (HRMS) data within Word documents.
+MSReportChecker is a standalone Microsoft Word Add-in that automatically detects and evaluates High-Resolution Mass Spectrometry (HRMS) data within Word documents according to the _ACS Guide to Scholarly Communication_:
+
+<strong>HRMS</strong> (ESI/Q-TOF) m/z: [M + Na]<sup>+</sup> Calcd for C<sub>13</sub>H<sub>17</sub>NO<sub>3</sub>Na 258.1101; Found 258.1074.
 
 It validates formatting, extracts molecular formulas, calculates exact masses, and flags potential inconsistencies between reported and theoretical values — all in real time, without the need for copy-pasting or external software.
+
 
 This tool is intended to support chemists, academic authors, and peer reviewers by ensuring HRMS data quality and adherence to reporting standards, particularly in manuscripts prepared for chemistry journals.
 
@@ -25,7 +28,7 @@ This is the easiest and preferred method.
 
 #### macOS
 
-1. Download the [`MSReportChecker.xml`](https://github.com/ulrichpabst/MSReportChecker/blob/main/MSReportChecker.xml) manifest  
+1. Download the [MSReportChecker.xml](https://github.com/ulrichpabst/MSReportChecker/blob/main/MSReportChecker.xml) file  
 2. Move it into the following directory:
 
    ```bash
@@ -35,10 +38,10 @@ This is the easiest and preferred method.
 
 #### Windows
 
-1. Download the [`MSReportChecker.xml`](https://github.com/ulrichpabst/MSReportChecker/blob/main/MSReportChecker.xml) manifest  
+1. Download the [MSReportChecker.xml](https://github.com/ulrichpabst/MSReportChecker/blob/main/MSReportChecker.xml) file  
 2. Open Microsoft Word, and go to `File > Options > Trust Center > Trust Center Settings`
 3. Choose `Trusted Add-in Catalogs`
-4.	Add the full path to this project directory as a shared folder catalog
+4.	Add the full path to the `MSReportChecker.xml` parent directory as a shared folder catalog in the `URL` box
 5.	Confirm and restart Word
 6.	The MSReportChecker will now appear under `Home > Add-ins`.
 
@@ -104,8 +107,6 @@ Then in Microsoft Word:
 4. Click **Analyze Document** to scan the open file for HRMS report lines.
 5. The results are presented in a structured table, with tooltips and color-coded status icons to highlight syntax issues, mass errors, or formatting deviations.
 
-No additional setup is required after installation.
-
 ---
 
 ### 💻 Offline Mode (Localhost version)
@@ -150,7 +151,6 @@ In both configurations:
 - You may inspect the source code to verify that all processing occurs client-side.
 - The add-in requests only the `ReadWriteDocument` permission, necessary to read text and insert taskpane content. It does **not** access files, external storage, or other system resources.
 
-> By design, MSReportChecker aligns with institutional privacy policies and best practices for handling scientific and potentially confidential data.
 
 ## License
 
