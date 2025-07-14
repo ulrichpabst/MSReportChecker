@@ -11,9 +11,7 @@ This tool is intended to support chemists, academic authors, and peer reviewers 
 
 ## Installation
 
-MSReportChecker is compatible with **macOS** and **Windows**. It runs entirely locally, without requiring an internet connection or any Microsoft 365 subscription.
-
-No programming experience is required.
+The program is intended for use inside of Microsoft Word, compatibility is provided natively for both **macOS** and **Windows**. Since Linux is not natively supported by MS Word, the Add-in was not tested there. But – let's face it – if you manage to run MS Word on Linux, then you will most likely also succeed with this Add-in. ;-)
 
 
 ### macOS
