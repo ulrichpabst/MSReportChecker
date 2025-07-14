@@ -11,10 +11,44 @@ This tool is intended to support chemists, academic authors, and peer reviewers 
 
 ## Installation
 
-The program is intended for use inside of Microsoft Word, compatibility is provided natively for both **macOS** and **Windows**. Since Linux is not natively supported by MS Word, the Add-in was not tested there. But – let's face it – if you manage to run MS Word on Linux, then you will most likely also succeed with this Add-in. ;-)
+MSReportChecker is a Microsoft Word Add-in available for both **macOS** and **Windows**. It can be used in two ways:
+
+- ✅ **Recommended**: Load the Add-in from GitHub Pages (auto-updating, zero setup)
+- 💻 **Offline**: Use a local installation via a self-hosted server (fully local, no network access)
+
+> 💡 Microsoft Word on Linux is not officially supported, but if you're managing to run it there, you probably know how to make the Add-in work too.
+
+---
+
+### ✅ Recommended Installation (GitHub Pages, cross-platform)
+
+This is the easiest and preferred method.
+
+#### macOS
+
+1. Download the [`MSReportChecker.xml`](https://github.com/ulrichpabst/MSReportChecker/blob/main/MSReportChecker.xml) manifest  
+2. Move it into the following directory:
+
+   ```bash
+   ~/Library/Containers/com.microsoft.Word/Data/Documents/wef/
+   ```
+3. Open Microsoft Word. The Add-in will appear automatically under the Home tab.
+
+#### Windows
+
+1. Download the [`MSReportChecker.xml`](https://raw.githubusercontent.com/ulrichpabst/MSReportChecker/main/MSReportChecker.xml) manifest.
+2. Open Microsoft Word, and go to `File > Options > Trust Center > Trust Center Settings`
+3. Choose `Trusted Add-in Catalogs`
+4.	Add the full path to this project directory as a shared folder catalog
+5.	Confirm and restart Word
+6.	The MSReportChecker will now appear under `Home > Add-ins`.
 
 
-### macOS
+### 💻 Local Installation (Advanced/offline mode)
+
+This is only needed for offline or air-gapped systems.
+
+#### macOS
 
 Open the **Terminal**, then run:
 
@@ -33,7 +67,7 @@ After installation, you may start the tool by running:
 python server.py
 ```
 
-### Windows
+#### Windows
 
 Open **PowerShell** as Administrator, then run:
 
