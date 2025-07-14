@@ -74,4 +74,4 @@ Print (Resolve-Path .\MSReportChecker.xml).Path
 Print ""
 Print "Installation complete!"
 Print ""
-Print "Start '.\server.py' to launch the local HTTPS server on https://localhost:3000/"
+Print "Run 'python server.py' to launch the local HTTPS server on https://localhost:3000/"
