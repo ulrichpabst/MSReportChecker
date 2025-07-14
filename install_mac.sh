@@ -56,4 +56,4 @@ mkdir -p ~/Library/Containers/com.microsoft.Word/Data/Documents/wef/
 cp MSReportChecker.xml ~/Library/Containers/com.microsoft.Word/Data/Documents/wef/MSReportChecker.xml
 
 echo -e "\n\nInstallation complete!"
-echo -e "\nRun 'python server.py' to launch the local HTTPS server.\n"
+echo -e "\nRun 'python server.py' to launch the local HTTPS server on https://localhost:3000/\n"
