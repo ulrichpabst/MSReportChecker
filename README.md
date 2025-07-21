@@ -14,7 +14,7 @@ This tool is intended to support chemists, academic authors, and peer reviewers 
 
 ## Installation
 
-MSReportChecker is a Microsoft Word Add-in available for both **macOS** and **Windows**. It can be used in two ways:
+MSReportChecker is a Microsoft Word Add-in available for both **macOS** and **Windows** with stable support starting from MS Office 2021. It can be used in two ways:
 
 - ✅ **Recommended**: Load the Add-in from GitHub Pages (auto-updating, zero setup)
 - 💻 **Offline**: Use a local installation via a self-hosted server (fully local, no network access)
