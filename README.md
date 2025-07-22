@@ -43,7 +43,7 @@ Here, the installation of the recommended form is presented. To install the offl
 3. Choose `Trusted Add-in Catalogs`
 4.	Add the full path to this project directory as a shared folder catalog, but make sure to remove trailing `)` characters and everything that comes before `//`.
 5.	Confirm and restart Word
-6.	The MSReportChecker will now appear under `Home > My Add-ins > Shared Folder`. The precise location of the Add-in might differ between different versions of Word.
+6.	The MSReportChecker will now appear under `Insert > My Add-ins > Shared Folder`. The precise location of the Add-in might differ between different versions of Word.
 
 
 
