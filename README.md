@@ -58,7 +58,11 @@ Here, the installation of the recommended form is presented. To install the offl
 1.	Open a Microsoft Word Document
 2.	Select MS Report Checker from the Home ribbon tab
 3.	Click `Analyze Document` in the taskpane to scan for HRMS reports
-4.	Results are presented in a table with tooltips and colored status icons
+4.	Results are presented in a table with tooltips and colored status icons.
+
+You can jump to the location of specific reports in the document by clicking on the linked number (left in each entry row).
+
+Furthermore, if you hover above the respective icon, contextual advice will be presented for correcting the problematic entry.
 
 ## Security and Privacy
 
