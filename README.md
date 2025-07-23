@@ -79,4 +79,4 @@ tba.
 
 ## Author
 
-**Ulrich Pabst**, [ORCID](https://orcid.org/0009-0007-0529-0720), 2025
+[**Ulrich Pabst**](https://orcid.org/0009-0007-0529-0720), 2025
