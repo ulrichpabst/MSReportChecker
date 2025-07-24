@@ -37,13 +37,14 @@ Here, the installation of the recommended form is presented. To install the offl
 
 1. Download the [`MSReportChecker.xml`](https://raw.githubusercontent.com/ulrichpabst/MSReportChecker/main/MSReportChecker.xml) manifest file.
 2. Move the file into any directory.
-2. Open the `Properties` Settings of the directory, move to the `Network` tab, then grant access to the specific user/group (requires the Administrator password).
-2. Copy the path for the shared location of the directory (e.g., file://Path/To/Directory)
-2. Open Microsoft Word, and go to `File > Options > Trust Center > Trust Center Settings`
-3. Choose `Trusted Add-in Catalogs`
-4.	Add the full path to this project directory as a shared folder catalog, but make sure to remove trailing `)` characters and everything that comes before `//`.
-5.	Confirm and restart Word
-6.	The MSReportChecker will now appear under `Insert > My Add-ins > Shared Folder`. The precise location of the Add-in might differ between different versions of Word.
+3. Open the `Properties` Settings of the directory, move to the `Network` tab, then grant access to the specific user/group (requires the Administrator password).
+   - If you do not own your computer and all rights (e.g., an institutional device), your responsible IT service may help you move the XML file to something like a shared directory and obtain a respective valid network access URL. This may very well be the trickiest part of the whole installation process.    
+5. Copy the path for the shared location of the directory (e.g., file://Path/To/Directory)
+6. Open Microsoft Word, and go to `File > Options > Trust Center > Trust Center Settings`
+7. Choose `Trusted Add-in Catalogs`
+8.	Add the full path to this project directory as a shared folder catalog in the `URL` field, but make sure to remove trailing `)` characters and everything that comes before `//`. Check the Option `Show in Menu`.
+9.	Confirm and restart Word.
+10.	The MSReportChecker will now appear under `Insert > My Add-ins > Shared Folder`. The precise location of the Add-in might differ between different versions of Word.
 
 
 
