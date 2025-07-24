@@ -78,6 +78,15 @@ Furthermore, if you hover above the respective icon, contextual advice will be p
 
 tba.
 
-## Author
+## Author Statement
+
+If you encounter issues or have general feedback, please do not hesitate to send me an Email!
+The current version of the program is fully operational, but I am planning to deploy a few adjustments and enhancements of the functionality in the future.
+Until then, I hope you enjoy using the program, and that it helps finding and fixing a few bugs!
+
+Best,
+
 
 [**Ulrich Pabst**](https://orcid.org/0009-0007-0529-0720), 2025
+
+Email: pabst@fmp-berlin.de
