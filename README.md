@@ -31,7 +31,7 @@ Here, the installation of the recommended form is presented. To install the offl
    ```bash
    ~/Library/Containers/com.microsoft.Word/Data/Documents/wef/
    ```
-3. Open Microsoft Word. The Add-in will now appear under `Insert > Add-Ins`. The precise location of the Add-in might differ between different versions of Word.
+3. Open Microsoft Word. The Add-in will now appear under `Insert > My Add-Ins`. The precise location of the Add-in might differ between different versions of Word.
 
 ### Windows
 
